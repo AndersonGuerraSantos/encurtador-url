@@ -1,0 +1,14 @@
+{
+  "name": "encurtador-url",
+  "version": "1.0.0",
+  "description": "Encurtador de URL - projeto prático",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "express": "^4.21.0"
+  }
+}
