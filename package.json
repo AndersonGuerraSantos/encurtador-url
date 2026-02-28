@@ -2,6 +2,7 @@
   "name": "encurtador-url",
   "version": "1.0.0",
   "description": "Encurtador de URL - projeto prático",
+  "engines": { "node": ">=18" },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

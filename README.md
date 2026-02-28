@@ -5,6 +5,7 @@ Projeto de encurtador de URLs. Envia uma URL longa e recebe um link curto que re
 ## Como rodar
 
 1. Instale as dependências:
+
    ```bash
    npm install
    ```
@@ -40,21 +41,25 @@ Usa SQLite. O arquivo `urls.db` é criado na primeira execução.
 ## Exemplos de uso
 
 Encurtar:
+
 ```bash
 curl -X POST http://127.0.0.1:5000/encurtar -H "Content-Type: application/json" -d '{"url":"https://www.google.com"}'
 ```
 
 Buscar por id:
+
 ```bash
 curl http://127.0.0.1:5000/url/1
 ```
 
 Listar por data:
+
 ```bash
 curl http://127.0.0.1:5000/urls/2025-02-27
 ```
 
 Buscar por código:
+
 ```bash
 curl http://127.0.0.1:5000/url/codigo/abc123
 ```

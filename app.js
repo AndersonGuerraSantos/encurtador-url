@@ -7,6 +7,14 @@ app.use(express.json());
 
 initDb();
 
+app.get("/", (req, res) => {
+  res.json({
+    nome: "Encurtador de URL",
+    status: "ok",
+    docs: "veja DOCUMENTACAO.md no repositório",
+  });
+});
+
 app.post("/encurtar", (req, res) => {
   const { url } = req.body;
   if (!url) {
