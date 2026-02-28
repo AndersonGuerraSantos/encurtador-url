@@ -1,6 +1,6 @@
 # Encurtador de URL
 
-Projeto de encurtador de URLs. Envia uma URL longa e recebe um link curto que redireciona para o endereço original.
+Projeto de encurtador de URLs. API em produção: https://encurtador-url-6de8.onrender.com Envia uma URL longa e recebe um link curto que redireciona para o endereço original.
 
 ## Como rodar
 
